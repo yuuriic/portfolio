@@ -594,7 +594,7 @@ span {
         width: 155%;
         filter: saturate(200%);
         animation: animate 5s linear infinite;
-        height: 60%;
+        height: 50%;
     }
 
     .about {
@@ -638,7 +638,30 @@ span {
 
 @media (max-width: 365px) {
     .home-img img {
-        width: 90vw;
+        margin-top: 15%;
+        position: relative;
+        width: 55vw;
+        right: 0;
+    }
+    
+    .imgbox #home-me { 
+        position: relative;
+        width: 60vw;
+        top: -100px;
+        right: 0;
+        transform: rotateY(180deg);
+        animation: animateUser 6s linear infinite;
+    }
+
+    .imgbox #splash {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-180deg);
+        width: 155%;
+        filter: saturate(200%);
+        animation: animate 5s linear infinite;
+        height: 50%;
     }
 
     .about-img img {
