@@ -489,7 +489,7 @@ span {
         width: 155%;
         filter: saturate(200%);
         animation: animate 6s linear infinite;
-        height: 50%;
+        height: 45%;
     }
 }
 
