@@ -277,7 +277,7 @@ section {
 }
 
 .home-img img{
-    width: 27vw;
+    width: 28vw;
 }
 
 span {
@@ -483,6 +483,25 @@ span {
     section {
         padding: 10rem 3% 2rem;
     }
+    
+    .imgbox #home-me { 
+        position: relative;
+        width: 30vw;
+        right: 0;
+        transform: rotateY(180deg);
+        animation: animateUser 6s linear infinite;
+    }
+
+    .imgbox #splash {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-180deg);
+        width: 155%;
+        filter: saturate(200%);
+        animation: animate 5s linear infinite;
+        height: 60%;
+    }
 
     .work {
         padding-bottom: 7rem;
@@ -555,6 +574,27 @@ span {
         margin-top: 15%;
         position: relative;
         width: 55vw;
+        right: 0;
+    }
+    
+    .imgbox #home-me { 
+        position: relative;
+        width: 60vw;
+        top: -100px;
+        right: 0;
+        transform: rotateY(180deg);
+        animation: animateUser 3s linear infinite;
+    }
+
+    .imgbox #splash {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-180deg);
+        width: 155%;
+        filter: saturate(200%);
+        animation: animate 4s linear infinite;
+        height: 65%;
     }
 
     .about {
@@ -563,8 +603,8 @@ span {
     }
 
     .about img {
-        width: 80vw;
-        margin-top: 4rem;
+        width: 90vw;
+        margin-top: 10rem;
     }
 
     .work-box .work-layer {
