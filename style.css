@@ -497,7 +497,7 @@ span {
         width: 155%;
         filter: saturate(200%);
         animation: animate 6s linear infinite;
-        height: 45%;
+        height: 40%;
     }
 }
 
@@ -508,6 +508,14 @@ span {
 
     section {
         padding: 10rem 3% 2rem;
+    }
+
+    .home-sci {
+        margin-top: 5%;
+    }
+
+    .home-img {
+        margin-top: 4%;
     }
     
     .imgbox #home-me { 
@@ -526,7 +534,7 @@ span {
         width: 155%;
         filter: saturate(200%);
         animation: animate 8s linear infinite;
-        height: 60%;
+        height: 50%;
     }
 
     .work {
@@ -594,6 +602,11 @@ span {
 
     .home-sci {
         position: relative;
+        margin-top: 5%;
+    }
+
+    .home-img {
+        margin-top: 4%;
     }
 
     .home-img img {
@@ -620,7 +633,7 @@ span {
         width: 155%;
         filter: saturate(200%);
         animation: animate 6s linear infinite;
-        height: 50%;
+        height: 40%;
     }
 
     .about {
