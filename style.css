@@ -488,7 +488,7 @@ span {
         transform: translate(-50%, -50%) rotate(-180deg);
         width: 155%;
         filter: saturate(200%);
-        animation: animate 6s linear infinite;
+        animation: none;
         height: 55%;
     }
 }
@@ -517,7 +517,7 @@ span {
         transform: translate(-50%, -50%) rotate(-180deg);
         width: 155%;
         filter: saturate(200%);
-        animation: animate 5s linear infinite;
+        animation: none;
         height: 60%;
     }
 
@@ -601,7 +601,7 @@ span {
         top: -100px;
         right: 0;
         transform: rotateY(180deg);
-        animation: animateUser 6s linear infinite;
+        animation: animateUser 8s linear infinite;
     }
 
     .imgbox #splash {
@@ -611,7 +611,8 @@ span {
         transform: translate(-50%, -50%) rotate(-180deg);
         width: 155%;
         filter: saturate(200%);
-        animation: animate 5s linear infinite;
+        animation: a
+        1;
         height: 50%;
     }
 
