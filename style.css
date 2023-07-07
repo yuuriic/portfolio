@@ -488,7 +488,7 @@ span {
         transform: translate(-50%, -50%) rotate(-180deg);
         width: 155%;
         filter: saturate(200%);
-        animation: animate 8s linear infinite;
+        animation: animate 6s linear infinite;
         height: 55%;
     }
 }
@@ -611,7 +611,7 @@ span {
         transform: translate(-50%, -50%) rotate(-180deg);
         width: 155%;
         filter: saturate(200%);
-        animation: animate 8s linear infinite;
+        animation: animate 6s linear infinite;
         height: 50%;
     }
 
