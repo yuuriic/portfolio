@@ -474,6 +474,14 @@ span {
         font-size: 55%;
     }
 
+    .home-sci {
+        margin-top: 5%;
+    }
+
+    .home-img {
+        margin-top: 4%;
+    }
+
     .imgbox #home-me { 
         position: relative;
         right: 0;
