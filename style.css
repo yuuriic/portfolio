@@ -473,6 +473,25 @@ span {
     html {
         font-size: 55%;
     }
+
+    .imgbox #home-me { 
+        position: relative;
+        width: 30vw;
+        right: 0;
+        transform: rotateY(180deg);
+        animation: animateUser 6s linear infinite;
+    }
+
+    .imgbox #splash {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-180deg);
+        width: 155%;
+        filter: saturate(200%);
+        animation: animate 5s linear infinite;
+        height: 60%;
+    }
 }
 
 @media (max-width: 991px) {
@@ -489,7 +508,7 @@ span {
         width: 30vw;
         right: 0;
         transform: rotateY(180deg);
-        animation: animateUser 8s linear infinite;
+        animation: animateUser 6s linear infinite;
     }
 
     .imgbox #splash {
@@ -499,7 +518,7 @@ span {
         transform: translate(-50%, -50%) rotate(-180deg);
         width: 155%;
         filter: saturate(200%);
-        animation: animate 6s linear infinite;
+        animation: animate 5s linear infinite;
         height: 60%;
     }
 
@@ -638,30 +657,7 @@ span {
 
 @media (max-width: 365px) {
     .home-img img {
-        margin-top: 15%;
-        position: relative;
-        width: 55vw;
-        right: 0;
-    }
-    
-    .imgbox #home-me { 
-        position: relative;
-        width: 60vw;
-        top: -100px;
-        right: 0;
-        transform: rotateY(180deg);
-        animation: animateUser 8s linear infinite;
-    }
-
-    .imgbox #splash {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(-180deg);
-        width: 155%;
-        filter: saturate(200%);
-        animation: animate 6s linear infinite;
-        height: 50%;
+        width: 90vw;
     }
 
     .about-img img {
