@@ -499,16 +499,6 @@ span {
         animation: animate 6s linear infinite;
         height: 40%;
     }
-
-    .about {
-        padding-top: 8rem;
-        flex-direction: column-reverse;
-    }
-
-    .about img {
-        width: 80vw;
-    }
-
 }
 
 @media (max-width: 991px) {
@@ -545,15 +535,6 @@ span {
         filter: saturate(200%);
         animation: animate 8s linear infinite;
         height: 50%;
-    }
-
-    .about {
-        padding-top: 8rem;
-        flex-direction: column-reverse;
-    }
-
-    .about img {
-        width: 80vw;
     }
 
     .work {
@@ -656,7 +637,7 @@ span {
     }
 
     .about {
-        padding-top: 8rem;
+        padding-top: 5rem;
         flex-direction: column-reverse;
     }
 
@@ -699,7 +680,7 @@ span {
     }
 
     .about-img img {
-        width: 30vw;
+        width: 60vw;
     }
 
     .footer {
