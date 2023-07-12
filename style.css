@@ -637,13 +637,12 @@ span {
     }
 
     .about {
-        padding-top: 0;
+        padding-top: 8rem;
         flex-direction: column-reverse;
     }
 
     .about img {
-        width: 90vw;
-        margin-top: 10rem;
+        width: 80vw;
     }
 
     .work-box .work-layer {
